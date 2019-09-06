@@ -46,7 +46,7 @@ class Game {
     Player.getPlayerInfo();
     
     if(allPlayers !== undefined){
-      background("#c68767");
+      background(rgb(198,135,103));
       image(track, 0,-displayHeight*4,displayWidth, displayHeight*5);
       
       //var display_position = 100;
